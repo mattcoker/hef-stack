@@ -3,6 +3,8 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'hef-stack',
+    modulePrefix: 'hef-stack',
+    podModulePrefix: 'hef-stack/pods',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
