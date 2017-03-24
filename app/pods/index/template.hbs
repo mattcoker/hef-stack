@@ -1,0 +1,9 @@
+<h1>Homepage</h1>
+
+<ul>
+  {{#each model as |person|}}
+    <li>{{person.displayName}}</li>
+  {{else}}
+    <li>No people were found.</li>
+  {{/each}}
+</ul>
